@@ -1,0 +1,70 @@
+.hero-section {
+  background-image: url("../images/hero-bg.jpeg");
+  color: black;
+  text-align: center;
+  padding: 100px 0;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.poll-card {
+  margin-bottom: 20px;
+}
+
+.poll-card img {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.card {
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card-img-top {
+  height: 150px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-body {
+  padding: 15px;
+  flex-grow: 1;
+}
+
+.card-footer {
+  border-top: 1px solid #dee2e6;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 10px 15px;
+}
+
+.expiry-info {
+  font-size: 14px;
+  color: #868e96;
+}
+
+.btn-view-details {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.icon {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+}
